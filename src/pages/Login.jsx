@@ -10,6 +10,7 @@ import Visibility from "@mui/icons-material/Visibility";
 import VisibilityOff from "@mui/icons-material/VisibilityOff";
 import { Box, styled } from "@mui/material";
 import Sidebar from "../components/sidebar/Sidebar";
+import Navbar from "../components/Navbar/Navbar";
 
 const DrawerHeader = styled("div")(({ theme }) => ({
   display: "flex",
@@ -60,6 +61,7 @@ const Login = () => {
   return (
     <div className="min-h-screen bg-[#ECEFF1]">
       <Box sx={{ display: "flex" }}>
+      <Navbar/>
         <Sidebar />
         <Box component="main" sx={{ flexGrow: 1, p: 2 }}>
           <DrawerHeader />

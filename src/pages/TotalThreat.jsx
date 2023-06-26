@@ -2,6 +2,7 @@ import React from "react";
 import { Box, styled } from "@mui/material";
 import Sidebar from "../components/sidebar/Sidebar";
 import underConstr from "../assets/under_construction.jpg";
+import Navbar from "../components/Navbar/Navbar";
 
 const DrawerHeader = styled("div")(({ theme }) => ({
   display: "flex",
@@ -15,6 +16,7 @@ const TotalThreat = () => {
   return (
     <div className="min-h-screen bg-[#ECEFF1]">
       <Box>
+      <Navbar/>
         <Box sx={{ display: "flex" }}>
           <Sidebar />
           <Box component="main" sx={{ flexGrow: 1, p: 2 }}>

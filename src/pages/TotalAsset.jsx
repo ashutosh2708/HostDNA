@@ -14,6 +14,7 @@ import {
 } from "@mui/material";
 import DevicesModal from "../components/Modals/DevicesModal";
 import CommonTable from "../commonTable/CommonTable";
+import Navbar from "../components/Navbar/Navbar";
 const { ValueContainer, Placeholder } = components;
 
 const CustomValueContainer = ({ children, ...props }) => {
@@ -222,6 +223,7 @@ const TotalAsset = () => {
   return (
     <div className="min-h-screen bg-[#ECEFF1]">
       <Box>
+      <Navbar/>
         <Box sx={{ display: "flex" }}>
           <Sidebar />
           <Box component="main" sx={{ flexGrow: 1, p: 2 }}>

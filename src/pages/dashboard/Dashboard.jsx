@@ -9,6 +9,7 @@ import InfraStruct from "../../components/charts/InfraStruct";
 import StaticDynamic from "../../components/charts/StaticDynamic";
 import OptSystem from "../../components/charts/OptSystem";
 import TotalThreatChart from "../../components/charts/TotalThreatChart";
+import Navbar from "../../components/Navbar/Navbar";
   
 
 const DrawerHeader = styled("div")(({ theme }) => ({
@@ -23,6 +24,7 @@ const Dashboard = () => {
   return (
     <div className="min-h-screen bg-[#ECEFF1]">
       <Box>
+      <Navbar/>
         <Box sx={{ display: "flex" }}>
           <Sidebar />
           <Box component="main" sx={{ flexGrow: 1, p: 1, width: "100%" }}>

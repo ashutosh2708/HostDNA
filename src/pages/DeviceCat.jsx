@@ -13,6 +13,7 @@ import SearchOutlinedIcon from "@mui/icons-material/SearchOutlined";
 import Sidebar from "../components/sidebar/Sidebar";
 import DeviceCatModal from "../components/Modals/DeviceCatModal";
 import CommonTable from "../commonTable/CommonTable";
+import Navbar from "../components/Navbar/Navbar";
 
 const deviceCategory = {
   message: "Items Receive Return List found ",
@@ -232,6 +233,7 @@ const DeviceCat = () => {
   return (
     <div className="min-h-screen bg-[#ECEFF1]">
       <Box>
+      <Navbar/>
         <Box sx={{ display: "flex" }}>
           <Sidebar />
           <Box component="main" sx={{ flexGrow: 1, p: 2 }}>

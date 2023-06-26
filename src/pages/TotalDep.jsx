@@ -13,6 +13,7 @@ import {
 import SearchOutlinedIcon from "@mui/icons-material/SearchOutlined";
 import DeptModal from "../components/Modals/DeptModal";
 import CommonTable from "../commonTable/CommonTable";
+import Navbar from "../components/Navbar/Navbar";
 
 const departmentData = {
   message: "Items Receive Return List found ",
@@ -232,6 +233,7 @@ const TotalDep = () => {
   return (
     <div className="min-h-screen bg-[#ECEFF1]">
       <Box>
+      <Navbar/>
         <Box sx={{ display: "flex" }}>
           <Sidebar />
           <Box component="main" sx={{ flexGrow: 1, p: 2 }}>
