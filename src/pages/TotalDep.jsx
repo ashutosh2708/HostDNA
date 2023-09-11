@@ -81,7 +81,7 @@ const departmentData = {
     },
     {
       id: 16,
-      "Department Name": "global",
+      "Department Name": "public",
     },
     {
       id: 17,
@@ -93,7 +93,7 @@ const departmentData = {
     },
     {
       id: 19,
-      "Department Name": "global",
+      "Department Name": "public",
     },
     {
       id: 20,

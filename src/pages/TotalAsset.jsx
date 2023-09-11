@@ -102,13 +102,13 @@ const deviceData = {
       id: 12,
       Category: "Comp7",
       "Model No": "9025661",
-      "Serial No": "113322",
+      "Serial No": "113422",
     },
     {
       id: 13,
       Category: "Comp8",
       "Model No": "9025661",
-      "Serial No": "113322",
+      "Serial No": "113422",
     },
     {
       id: 14,
