@@ -45,10 +45,6 @@ const DeptModal = () => {
     defaultValues,
   });
 
-  // useEffect(() => {
-  //   console.log("Value is ", errors);
-  // }, [errors]);
-
   const onSubmit = (data) => {
     reset(defaultValues);
     console.log("Department Name is ", data);

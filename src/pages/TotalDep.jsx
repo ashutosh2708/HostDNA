@@ -238,16 +238,14 @@ const TotalDep = () => {
           <Sidebar />
           <Box component="main" sx={{ flexGrow: 1, p: 2 }}>
             <DrawerHeader />
-            <form action="">
+            <form>
               <div className="border bg-white shadow-lg p-4">
                 <div className="text-base font-semibold mb-2">Department</div>
                 <div className="grid grid-rows-1 md:grid-cols-4 gap-3 space-x-6 mb-3">
                   <div>
                     <TextField
                       fullWidth
-                      name=""
                       size="small"
-                      id=""
                       variant="outlined"
                       placeholder=""
                       InputProps={{

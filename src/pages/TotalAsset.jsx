@@ -237,9 +237,7 @@ const TotalAsset = () => {
                   <div className="">
                     <TextField
                       fullWidth
-                      name=""
                       size="small"
-                      id=""
                       variant="outlined"
                       placeholder=""
                       InputProps={{

@@ -45,10 +45,6 @@ const DeviceCatModal = () => {
     defaultValues,
   });
 
-  // useEffect(() => {
-  //   console.log("Value is ", errors);
-  // }, [errors]);
-
   const onSubmit = (data) => {
     reset(defaultValues);
     console.log("Device Category is ", data);

@@ -47,7 +47,6 @@ const TotalUser = () => {
       </div>
       <ResponsiveContainer height={250}>
         <LineChart
-          // width={100}
           data={data}
           margin={{ top: 0, right: 20, bottom: 5, left: 0 }}
         >

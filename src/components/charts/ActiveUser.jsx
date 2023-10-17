@@ -92,8 +92,6 @@ const ActiveUser = () => {
               stroke="none"
               dataKey="value"
               label={true}
-              // cx={170}
-              // cy={100}
               innerRadius={70}
               outerRadius={100}
             >
