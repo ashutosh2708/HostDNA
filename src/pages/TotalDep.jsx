@@ -247,7 +247,6 @@ const TotalDep = () => {
                       fullWidth
                       size="small"
                       variant="outlined"
-                      placeholder=""
                       InputProps={{
                         endAdornment: (
                           <IconButton>

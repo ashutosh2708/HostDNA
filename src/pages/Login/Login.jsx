@@ -70,7 +70,6 @@ const Login = () => {
           <div className="flex flex-col py-2 mx-8">
             <TextField
               name="username"
-              id="outlined-basic"
               label="Username"
               variant="outlined"
               autoComplete="username"

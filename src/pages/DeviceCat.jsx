@@ -247,9 +247,7 @@ const DeviceCat = () => {
                   <div>
                     <TextField
                       fullWidth
-                      name=""
                       size="small"
-                      id=""
                       variant="outlined"
                       placeholder=""
                       InputProps={{
